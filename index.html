@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!--
+      ___    ___ ________  _____ ______
+     |\  \  /  /|\_____  \|\   _ \  _   \
+     \ \  \/  / /\|___/  /\ \  \\\__\ \  \
+      \ \    / /     /  / /\ \  \\|__| \  \
+       \/  /  /     /  /_/__\ \  \    \ \  \ ___
+     __/  / /      |\________\ \__\    \ \__\\__\
+    |\___/ /        \|_______|\|__|     \|__\|__|
+    \|___|/
+    Copyright © 2020 - 2022 Yunzhimo.All Rights Reserved.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>云之末。</title>
+        <meta itemprop="name" content="云之末。" />
+        <meta itemprop="image" content="./img/itemprop.png" />
+        <meta name="description" itemprop="description" content="一个小小的服务器，一个温馨的家。" />
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <script src="js/fixedHeight.js" type="text/javascript" defer></script>
+        <script src="js/header.js" type="text/javascript" defer></script>
+        <script src="js/server.js" type="text/javascript" defer></script>
+        <script src="js/bgmove.js" type="text/javascript" defer></script>
+        <script src="js/nozoom.js" type="text/javascript" defer></script>
+        <script src="js/randomBg.js" type="text/javascript" defer></script>
+        <script src="./js/pannellum.js"></script>
+        <script src="js/spacing.js" type="text/javascript" defer></script>
+        <link rel="stylesheet" href="./css/pannellum.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" type="image/png" href="./img/icon.png">
+        </head>
+    <body>
+        <script type="text/javascript">
+            console.log("%c ___    ___ ________  _____ ______          \n|\\  \\  /  /|\\_____  \\|\\   _ \\  _   \\\n\\ \\  \\/  / /\\|___/  /\\ \\  \\\\\\__\\ \\  \\\n \\ \\    / /     /  / /\\ \\  \\\\|__| \\  \\\n  \\/  /  /     /  /_/__\\ \\  \\    \\ \\  \\ ___\n__/  / /      |\\________\\ \\__\\    \\ \\__\\\\__\\\n|\\___/ /       \\|_______|\\|__|     \\|__\\|__|\n\\|___|/\nCopyright © 2020 - 2021 Yunzhimo.All Rights Reserved.","color:rgb(46,117,206)")
+        </script>
+        <div id="thumbnail-img" style="margin: 0;width: 0;height: 0;overflow: hidden;">
+            <img src="./img/itemprop.png">
+        </div>
+        <div id="reload-tip" style="background: #ffebcd;border: #ff8c00 solid 1px; padding: 15px;width: auto;z-index: 10;margin: 10px;">
+            <span style="color:#d22;padding:2px;font-weight: bolder;">！</span>
+            页面加载似乎出了点问题，
+            <a href="./index.html">点击重试</a>
+        </div>
+        <header id="header">
+            <div id="header-main">
+                <img src="./img/icon.png">
+                <span id="name">
+                    云之末.
+                </span>
+            </div>
+            <div id="nav">
+                <a href="index.html">
+                    <button class="nav-button">主页</button>
+                </a>
+                <a href="https://docs.qq.com/doc/p/805cbdea06f48cfda80008f25b254ae01e18fcda?dver=3.0.27386359" target="view_window">
+                    <button class="nav-button">入服教程</button>
+                </a>
+
+            </div>
+        </header>
+        <div id="index" class="section">
+            <div id="index-bg">
+                <div class="index-bg-radius" id="index-bg-radius-1"></div>
+                <div class="index-bg-radius" id="index-bg-radius-2"></div>
+                <div class="index-bg-radius" id="index-bg-radius-3"></div>
+                <div class="index-bg-radius" id="index-bg-radius-4"></div>
+                <div class="index-bg-img" id="index-bg-img-1" style="opacity:0"></div>
+                <div class="index-bg-img" id="index-bg-img-2" style="opacity:1;background-position:left center"></div>
+                <div class="index-bg-img" id="index-bg-img-3" style="opacity:1"></div>
+                <div class="index-bg-img" id="index-bg-img-4" style="opacity:1"></div>
+            </div>
+            <div id="index-main">
+                <div>有朋自远方来，不亦乐乎</div>
+                <div>无论你来自何方，都有机会加入我们，共同分享这独一无二的热爱和快乐</div>
+                <a href="https://docs.qq.com/form/page/DTk1DWW9nSnFCTlJz?_w_tencentdocx_form=1" target="view_window">
+                    <button>JOIN US</button>
+                </a>
+            </div>
+            <div id="index-bg-tip">尝试左右滑动</div>
+        </div>
+        <div id="container">
+            <div id="introduction" class="section">
+                <div class="text-title">
+                    序言
+                </div>
+                <div id="introduction-main" class="main-text text indent-text">
+                   2020年1月18日，一个值得被记住的日子。这一天，一群志趣相投的玩家开始了新征程。从死亡不掉落到无限冒险，从封建专治到民主裁，从网易租赁服到国际版服务器，从1.12到1.18……地图早已换过数次，服务器也更换了数次。流光一瞬，华表千年，两年余时光匆逝去。游戏，不仅承载着一份快乐，更承载着一份难忘的记忆。他们那年幼的懵懂与青涩早已消失，取代的是一份成熟的理智与憧憬岁月如梭，距离第一次相遇早已过去两年多。放眼望去，一开始陪伴的好友们，他们还在热爱着吗？
+                </div>
+            </div>
+            <div id="feature" class="section">
+                <div class="text-title">
+                    特色
+                </div>
+                <div id="feature-main" class="text main flex">
+                    <div class="feature-main-text flex-text">
+                        纯净生存
+                        <div class="feature-main-explanation text-explanation main-text">
+                            不添加修改原版内容的插件，游戏内锁定生存模式和难度，在挑战自我的同时尽享原版游戏的快乐
+                        </div>
+                    </div>
+                    <div class="feature-main-text flex-text">
+                        消息互通
+                        <div class="feature-main-explanation text-explanation">
+                            通过使用<a href="https://www.minebbs.com/resources/mcl-mcl-naive-bds.2156/"  target="view_window">第三方开服器和机器人<img src="./img/link.png" class="a-icon"></a>实现群内消息和服务器内消息互通，聊天游戏两不误
+                        </div>
+                    </div>
+                    <div class="feature-main-text flex-text">
+                        与民同乐
+                        <div class="feature-main-explanation text-explanation main-text">
+                            服主和管理员一同参与生存游玩，op权限仅用于管理服务器，并郑重承诺不会用于作弊和修改原版内容
+                        </div>
+                    </div>
+                    <div class="feature-main-text flex-text">
+                        众生平等
+                        <div class="feature-main-explanation text-explanation main-text">
+                            无论你是谁，都和其他人一样要遵守规则，享有平等的权利。本服务器不提供增值服务，仅开放无偿捐赠途径
+                        </div>
+                    </div>
+                    <div class="feature-main-text flex-text">
+                        民主共和
+                        <div class="feature-main-explanation text-explanation main-text">
+                            服务器绝大部分的重大事宜将由全体成员开会商讨后决定，杜绝一人独揽大权
+                        </div>
+                    </div>
+                    <div class="feature-main-text flex-text">
+                        地图备份
+                        <div class="feature-main-explanation text-explanation main-text">
+                            重大工程施工前可对地图备份，存档将按时上传至百度网盘备份并予以公开
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="advantage" class="section">
+                <div class="text-title">
+                    优点
+                </div>
+                <div id="advantage-main" class="text main flex">
+                    <div class="advantage-main-text flex-text">
+                        安全
+                        <div class="advantage-main-explanation text-explanation main-text">
+                            本服中装有<a href="https://www.minebbs.com/resources/behaviorlog.2795/" target="view_window">行为监控插件<img src="./img/link.png" class="a-icon"></a>，包括打破或放置或交互方块使用物品、玩家进出服务器、死亡等行为事件，有效杜绝熊孩子为所欲为
+                        </div>
+                    </div>
+                    <div class="advantage-main-text flex-text">
+                        稳定
+                        <div class="advantage-main-explanation text-explanation main-text">
+                            开服前服务端经过服主检验测试，并装有插件拦截异常数据包和异常行为，可避免大部分崩服现象发生，保证服务器的稳定流畅运行。<del class="main-text">崩一次服主女装</del>
+                        </div>
+                    </div>
+                    <div class="advantage-main-text flex-text">
+                        流畅
+                        <div class="advantage-main-explanation text-explanation main-text">
+                            使用<a href="https://portal.xfywz.cn/index.php" target="view_window">小枫云<img src="./img/link.png" class="a-icon"></a>服务器，具有不限速的带宽，跑图时也能流畅游戏，在大陆大部分地区都能体验到极低的延迟，告别走两步退一步的时代
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="groupphoto" class="section">
+                <div class="text-title">
+                    合照
+                </div>
+                <div id="groupphoto-main" class="flex">
+                    <div class="groupphoto-screenshot flex">
+                        <div class="groupphoto-date">
+                            2020/04/14
+                        </div>
+                    </div>
+                    <div class="groupphoto-screenshot flex">
+                        <div class="groupphoto-date">
+                            2020/07/20
+                        </div>
+                    </div>
+                    <div class="groupphoto-screenshot flex">
+                        <div class="groupphoto-date">
+                            2020/08/08
+                        </div>
+                    </div>
+                    <div class="groupphoto-screenshot flex">
+                        <div class="groupphoto-date">
+                            2020/10/25
+                        </div>
+                    </div>
+                    <div class="groupphoto-screenshot flex">
+                        <div class="groupphoto-date">
+                            2020/12/31
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panorama" class="section">
+                <div class="text-title">
+                    全景
+                </div>
+                <div id="panorama-container">
+                    <div id="panorama-main">
+                    </div>
+                </div>
+                <script>
+                  pannellum.viewer('panorama-main', {
+                    "type": "equirectangular",
+                    "panorama": "./img/pano.jpg",
+                    "autoLoad": true,
+                    "autoRotateInactivityDelay":1000,
+                  });
+                </script>
+            </div>
+            <div id="server" class="section">
+                <div class="text-title">
+                    服务器状态
+                </div>
+                <div id="server-main" class="text main flex">
+                    <div id="server-info" class="main-text text">
+                        <div id="server-ip">
+                            <div>IP:</div>
+                            <div>端口:</div>
+                        </div>
+                        <div id="server-motd" >loading...</div>
+                    </div>
+                    <div id="server-state">
+                        <span id="server-online" class="main-text text">-/-</span>
+                        <img id="server-ping-ico" src="./img/ping_loading.gif">
+                        <span id="server-delay" class="main-text text">-ms</span>
+                        <button id="server-add">添加服务器</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer-main" class="flex">
+                <div id="about" class="footer-main-block">
+                    <div class="footer-main-title">
+                        ABOUT
+                    </div>
+                    <div id="footer-main-statement">
+                        <div>少年不惧岁月长，彼方尚有荣光在</div>
+                        <div>这是一个小小的服务器，也是一个温馨的家</div>
+                        <div>感谢一路陪伴和支持着这个服务器的伙伴朋友们。</div>
+                        <div>本服务器和Mojang Studio、微软Microsoft、网易没有从属关系</div>
+
+                    </div>
+                </div>
+                <div>
+                    <div id="we" class="footer-main-block">
+                        <div class="footer-main-title">
+                            WE
+                        </div>
+                        <div id="footer-main-statement">
+                            <div id="donate-trigger">
+                                <div id="donate-container">
+                                    <img src="./img/donate.jpg" id="donate-img">
+                                    <a href="https://api.isoyu.com/url/dwz/do.php?uid=ri5q55" target="view_window">
+                                        直达链接<img src="./img/link.png" class="a-icon">
+                                    </a>
+                                </div>
+                                捐赠</div>
+                            <a href="https://kdocs.cn/l/stHvinHGRolX" target="view_window">更新日志</a>
+                            <a href="mailto:22679330@qq.com" target="view_window">联系服主</a>
+                        </div>
+                    </div>
+                    <div id="more" class="footer-main-block">
+                        <div class="footer-main-title">
+                            MORE
+                        </div>
+                        <div id="footer-main-statement">
+                            <a href="https://bugs.mojang.com/" target="view_window">BUG反馈</a>
+                            <a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" target="view_window">官方维基</a>
+                            <a href="https://www.118pan.com/o11286" target="view_window">游戏下载</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer-copyright" class="footer-main-block">
+                    <div>Copyright © 2020 - 2022 Yunzhimo.</div>
+                    <div>All Rights Reserved.</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
