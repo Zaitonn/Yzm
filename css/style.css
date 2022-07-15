@@ -23,7 +23,7 @@ body::-webkit-scrollbar{
     font-family: sans-serif,"\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","Hiragino Sans GB",cursive,arial;
 }
 *::selection{
-    background: #00000050;;
+    background: #00000050;
 }
 *:not(index-bg *){
     transition: 0.3s;
@@ -335,7 +335,7 @@ header #name{
     font-size: var(--h2);
     width: 100%;
     text-align: center;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
 }
 .flex{
     display: flex;
@@ -534,7 +534,7 @@ header #name{
     box-shadow: #00000050 0 0.1rem 0.5rem 0;
 }
 #footer-main{
-    padding: 50px 80px 10px 80px;
+    padding: 50px 80px 10px;
 }
 .footer-main-title{
     font-size: var(--h3);
@@ -595,7 +595,7 @@ header #name{
 @media only screen and (max-width: 600px){
     #footer-main{
         justify-content:flex-start;
-        padding: 40px 20px 0px 20px;
+        padding: 40px 20px 0px;
     }
     .footer-main-title{
         font-size: var(--h4);
